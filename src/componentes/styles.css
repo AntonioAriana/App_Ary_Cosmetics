@@ -1,0 +1,78 @@
+/* styles.css */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B164F1;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+/* styles.css */
+nav {
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Distribuir elementos de la lista de manera uniforme */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: yellow; /* Cambiar color al pasar el ratón sobre el enlace */
+  }
+  
+  .active {
+    color: yellow; /* Estilo para el enlace activo */
+  }
+  
+  /* styles.css */
+
+nav {
+  background-color: #EC94FF; /* Color de fondo del navbar */
+  padding: 20px; /* Espaciado interno del navbar */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+li {
+  color: white; /* Color del texto en los elementos del navbar */
+  margin-right: 10px; /* Espaciado entre elementos del navbar */
+}
+
+li:first-child {
+  font-weight: bold; /* Texto "Bienvenido" en negrita */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
